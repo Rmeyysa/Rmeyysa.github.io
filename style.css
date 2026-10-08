@@ -958,7 +958,73 @@ footer p {
   color: #007bff;
   word-break: break-all;
 }
+/* İLETİŞİM BÖLÜMÜ STİLLERİ */
+.contact-section {
+  padding: 60px 20px !important;
+  background-color: #f4f6f9 !important;
+  text-align: center !important;
+  display: block !important;
+}
 
+.contact-container {
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+}
+
+.contact-title {
+  font-size: 2.2rem !important;
+  color: #111111 !important;
+  margin-bottom: 10px !important;
+}
+
+.contact-desc {
+  font-size: 1.1rem !important;
+  color: #555555 !important;
+  margin-bottom: 30px !important;
+}
+
+.contact-cards {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 20px !important;
+  flex-wrap: wrap !important;
+}
+
+.contact-card {
+  background-color: #ffffff !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 10px !important;
+  padding: 25px 15px !important;
+  width: 280px !important;
+  text-decoration: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08) !important;
+  transition: transform 0.2s ease !important;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px) !important;
+}
+
+.contact-icon {
+  font-size: 2.5rem !important;
+  margin-bottom: 10px !important;
+}
+
+.card-heading {
+  font-size: 1.3rem !important;
+  color: #222222 !important;
+  margin: 5px 0 !important;
+}
+
+.card-text {
+  font-size: 0.95rem !important;
+  color: #0066cc !important;
+  font-weight: bold !important;
+  word-break: break-all !important;
+}
 
 
 
